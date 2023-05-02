@@ -1,0 +1,80 @@
+/* Write your CSS code here */
+.body-container {
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.result-container {
+  border: 3px solid #00e7ff;
+  border-radius: 12px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 10px;
+}
+.body-heading {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Bree Serif';
+  margin: 0px;
+}
+.main-image {
+  width: 90%;
+  height: 200px;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-image {
+    width: 70%;
+    height: 400px;
+  }
+  .body-heading {
+    font-size: 48px;
+  }
+}
+
+.list-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #092e33;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.converter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+
+.list-container {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .list-header-container {
+    padding-left: 24px;
+    padding-right: 34px;
+  }
+  .list-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
